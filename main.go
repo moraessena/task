@@ -1,5 +1,7 @@
 package main
 
+import "github.com/danielAang/task/cmd"
+
 func main() {
-	cmd
+	cmd.RootCmd.Execute()
 }
